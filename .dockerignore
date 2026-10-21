@@ -1,0 +1,16 @@
+.git
+.env
+.env.*
+!.env.example
+node_modules
+**/node_modules
+backend/dist
+frontend/dist
+coverage
+backend/data/*.csv
+backend/data/parametros.md
+backend/data/dicionario_de_dados.md
+*.tsbuildinfo
+.venv
+__pycache__
+*.py[cod]

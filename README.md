@@ -1,2 +1,2 @@
-# case-com-ia
-Solução com agente de IA 
+# GoBeauté | Inteligência de Estoque
+
