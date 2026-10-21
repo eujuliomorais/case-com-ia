@@ -7,7 +7,6 @@ node_modules
 backend/dist
 frontend/dist
 coverage
-backend/data/parametros.md
 backend/data/dicionario_de_dados.md
 *.tsbuildinfo
 .venv
