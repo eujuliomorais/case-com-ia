@@ -1,0 +1,79 @@
+/* GoCase-inspired UI palette: charcoal, orange, blue and warm yellow. */
+:root {
+  --brand-orange: #f15a2a;
+  --brand-orange-dark: #d8491f;
+  --brand-blue: #2875d7;
+  --brand-yellow: #ffd34e;
+  --ink: #252321;
+  --muted: #73716f;
+  --canvas: #f8f7f4;
+  --green: var(--brand-orange);
+  --green-dark: var(--brand-orange-dark);
+  --green-pale: #fff0e9;
+  --purple: var(--brand-blue);
+}
+
+.brand-mark,
+.kpi-icon.green,
+.agent-title-icon {
+  color: var(--brand-orange);
+  background: #fff0e9;
+}
+
+.brand-mark {
+  border-radius: 9px;
+}
+
+.nav-item.active {
+  background: #fff0e9;
+  color: #b83b19;
+}
+
+.budget-panel .progress-fill {
+  background: linear-gradient(90deg, var(--brand-orange), var(--brand-yellow));
+}
+
+.date-chip span,
+.advisor-spark {
+  color: var(--brand-blue);
+}
+
+.data-quality-notice {
+  display: flex;
+  align-items: flex-start;
+  gap: 9px;
+  margin: 0 0 14px;
+  padding: 10px 12px;
+  border: 1px solid #f2dfae;
+  border-radius: 9px;
+  background: #fff9e8;
+  color: #685a35;
+  font-size: 10px;
+  line-height: 1.55;
+}
+
+.data-quality-icon {
+  display: grid;
+  width: 16px;
+  height: 16px;
+  flex: 0 0 16px;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--brand-yellow);
+  color: #463b1e;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+@media (max-width: 760px) {
+  .nav-item:not(.active) {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    font-size: 0;
+  }
+
+  .nav-count {
+    display: none;
+  }
+}
